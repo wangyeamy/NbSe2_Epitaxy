@@ -1,0 +1,198 @@
+[
+  {
+    "file": "data/forces/atom_forces.csv",
+    "original_filename": "C_hBN_cap_increment_all_atom_forces.csv",
+    "original_sha256": "b88137a715867196838fc939013efad36f6185043d4eea3b76ed9f99a441ea8b",
+    "distributed_sha256": "b88137a715867196838fc939013efad36f6185043d4eea3b76ed9f99a441ea8b",
+    "path_redacted": false
+  },
+  {
+    "file": "data/dos/stack.dat",
+    "original_filename": "total_dos.dat",
+    "original_sha256": "5a277a92cf1b7ffaab3e7f46e639373cdf9dadd1eca4de70e15ffa337cf1bf7a",
+    "distributed_sha256": "5a277a92cf1b7ffaab3e7f46e639373cdf9dadd1eca4de70e15ffa337cf1bf7a",
+    "path_redacted": false
+  },
+  {
+    "file": "data/dos/uncapped.dat",
+    "original_filename": "total_dos.dat",
+    "original_sha256": "7cc61d363cd0cbbd094e13b56ca3f6ee3f32d87d280c733a6deffd517b04fa6e",
+    "distributed_sha256": "7cc61d363cd0cbbd094e13b56ca3f6ee3f32d87d280c733a6deffd517b04fa6e",
+    "path_redacted": false
+  },
+  {
+    "file": "data/dos/hbn.dat",
+    "original_filename": "total_dos.dat",
+    "original_sha256": "b6cf0dfcc72d61bc39fa1684c17e09ba0bc9f64de7a3fe5cf3c81cdd37ec8f5b",
+    "distributed_sha256": "b6cf0dfcc72d61bc39fa1684c17e09ba0bc9f64de7a3fe5cf3c81cdd37ec8f5b",
+    "path_redacted": false
+  },
+  {
+    "file": "data/qe_outputs/k2_stack.out",
+    "original_filename": "qe-k2-free-stack-certify-26228612_0.out",
+    "original_sha256": "9dfdbe33de66006d6ba0cf13f5eed745ec9f7905d52fb42426a4a6ac8913b6cf",
+    "distributed_sha256": "ea4915f83c25ec8ea41c428206528b57f143129115e3223d851532057c6384e9",
+    "path_redacted": true
+  },
+  {
+    "file": "data/qe_outputs/k2_uncapped.out",
+    "original_filename": "qe-k2-free-uncapped-certify-26228610_1.out",
+    "original_sha256": "89b46b8c588691aee0ffa1c4b115c098c48bb6ac33b839a815c37d612fa12763",
+    "distributed_sha256": "ddf3846c0b0bb6c7ed00e5b8c59bca89c58ca377ea45d2c3e70980a2226bf3ea",
+    "path_redacted": true
+  },
+  {
+    "file": "data/qe_outputs/k2_hbn.out",
+    "original_filename": "qe-hbn-k2-attempt1-26127834.out",
+    "original_sha256": "2fbe0c21980017e0a06c0c41c8e898c8c71049de7b059068a66ff18cb82bdb0c",
+    "distributed_sha256": "dc5b32178349e9a428a2f0e8bff8d44d3888d887815201e12acedff977b39398",
+    "path_redacted": true
+  },
+  {
+    "file": "data/qe_outputs/k3_stack.out",
+    "original_filename": "qe-k3-stack-c20x2-recovery-26303038.out",
+    "original_sha256": "a18a10ec98220d0d061894a225fd6591e9e0b4aef18a570c6d01f93c40c6c575",
+    "distributed_sha256": "65a8308e5c7e32a7d486a486ccfbf767cd14d8738771c4205fe2b8c662b2e2e4",
+    "path_redacted": true
+  },
+  {
+    "file": "data/qe_outputs/k3_uncapped.out",
+    "original_filename": "qe-uncapped-k3-attempt1-26228617_1.out",
+    "original_sha256": "34a09fef420c1453d454c2d3b08360afe0058a87ffe13ac489c98cd5a227d4ea",
+    "distributed_sha256": "ef1e7ab268f4cd2ac5190eb0c2111cb7e3820c7908de486586c00d1d7eba975d",
+    "path_redacted": true
+  },
+  {
+    "file": "data/qe_outputs/k3_hbn.out",
+    "original_filename": "qe-hbn-k3-attempt2-26222673.out",
+    "original_sha256": "84f7b44b0f9ffd6b107a8a217024c1cf1c87b56e61955428cda710ca79461bbf",
+    "distributed_sha256": "87bee5767bf6de484898043ea1193c1a5588e34c7a4d84cb314f6b8bc37c7769",
+    "path_redacted": true
+  },
+  {
+    "file": "data/inputs/reference_C.in",
+    "original_filename": "C.in",
+    "original_sha256": "fa0063dbb34e6824a247b1cb70b9073f159aa8445754e9c1bc53f5416552b4d9",
+    "distributed_sha256": "80125d4a115164b42837d4102fde7922298c84f881b14881ba69088777eac827",
+    "path_redacted": true
+  },
+  {
+    "file": "data/inputs/reference_U.in",
+    "original_filename": "U.in",
+    "original_sha256": "949cb4cd9c9c23994838a56c17247c4cea345566a30e996e40798c90cb946a3e",
+    "distributed_sha256": "d8f8c651b6799555abf69cf4a5da63f9310c6c3e17028637a46c1072826dc900",
+    "path_redacted": true
+  },
+  {
+    "file": "data/inputs/C_minus.in",
+    "original_filename": "C_minus.in",
+    "original_sha256": "5188ca17a0c0d06e113081150c6af60d73291f1ee27391c0b70eb97718614081",
+    "distributed_sha256": "80ecc6686186c20919f32fe446b378c497110729628dc94996cf6159aced8268",
+    "path_redacted": true
+  },
+  {
+    "file": "data/inputs/U_minus.in",
+    "original_filename": "U_minus.in",
+    "original_sha256": "31d4b2addabec5bfdf3f71dadd3e135b3561541a94295dd1986d997e4d48ed74",
+    "distributed_sha256": "a28c611073a0fd9da9081dcd0095493eecf8cadd181f3e814a1a6d9bd2de68e8",
+    "path_redacted": true
+  },
+  {
+    "file": "data/benchmark/ecut40_k12_n4.in",
+    "original_filename": "ecut40_k12_n4.in",
+    "original_sha256": "ab1a24f57af1dad6213974bc0b916b7c98f863fc3e9b358297b5b707f23ac1c4",
+    "distributed_sha256": "6b7d74b3850d95d27481b238bb62716528decb6945e424d4ee76d72baaedbfb7",
+    "path_redacted": true
+  },
+  {
+    "file": "data/benchmark/ecut50_k12_n1.in",
+    "original_filename": "ecut50_k12_n1.in",
+    "original_sha256": "70442028686cd9efe1913cce234404aad68e91a375687b0ec46f3d40ed91762c",
+    "distributed_sha256": "71dc85963e694967de430bc561cea553425290e040e8445a197085cdd41876d6",
+    "path_redacted": true
+  },
+  {
+    "file": "data/benchmark/ecut50_k12_n16.in",
+    "original_filename": "ecut50_k12_n16.in",
+    "original_sha256": "3af538270a687fe20482fb51aef9595dccb9e58e9c6a2758ec89dc0ffd14bc62",
+    "distributed_sha256": "5a74b21179c0795f097806053068b9909548ee5ab8a3c5245472666fe11f1a08",
+    "path_redacted": true
+  },
+  {
+    "file": "data/benchmark/ecut50_k12_n2.in",
+    "original_filename": "ecut50_k12_n2.in",
+    "original_sha256": "a1a8928557adfc03938fb7fc878aa40a850cff5c8fd01ec24c59e4807ab4a001",
+    "distributed_sha256": "8116b51bd93fce31644c50f1e22ac51fffcdce96236ff9898700e9c88c852373",
+    "path_redacted": true
+  },
+  {
+    "file": "data/benchmark/ecut50_k12_n4.in",
+    "original_filename": "ecut50_k12_n4.in",
+    "original_sha256": "9099640fb42f643afc36fc0ff8b16762330cf4968f0158d320de3622dd836079",
+    "distributed_sha256": "2381fa2268d140bc0d8b6b3fa0284fb8ec704a13f5d7a2856938557d2f8b2d7b",
+    "path_redacted": true
+  },
+  {
+    "file": "data/benchmark/ecut50_k12_n8.in",
+    "original_filename": "ecut50_k12_n8.in",
+    "original_sha256": "8d1a0fc4e1ffc9e69c635aef52c83d369f8b2d987ec36dec5431af11074bfafa",
+    "distributed_sha256": "deccc207bfec37c9e2c5e7430ffa56b012d011cbec34b741e66249484baad0ed",
+    "path_redacted": true
+  },
+  {
+    "file": "data/benchmark/ecut50_k15_n4.in",
+    "original_filename": "ecut50_k15_n4.in",
+    "original_sha256": "43ad777c23606de9fa365b5d7d4f1cbc46cb7dbeddeb5213be27754e1c132b45",
+    "distributed_sha256": "13cf80392489e5dbd5a9830f604ab7173cba49d775e21744c43c0742a476da08",
+    "path_redacted": true
+  },
+  {
+    "file": "data/benchmark/ecut50_k6_n4.in",
+    "original_filename": "ecut50_k6_n4.in",
+    "original_sha256": "892d63802d97096f3688e27b8adc8942e7804ba1dbfb70662c10eeae0f6e3d87",
+    "distributed_sha256": "ca40e89d4fd2d17e222931703f6c73d7b61bfb365ef5c16f345702133005c83d",
+    "path_redacted": true
+  },
+  {
+    "file": "data/benchmark/ecut50_k9_n4.in",
+    "original_filename": "ecut50_k9_n4.in",
+    "original_sha256": "096712cce69d3aa2470648e8a3a4b99658c401f86dbcaa0156290bcdf826881c",
+    "distributed_sha256": "1f54a1454f34ef6d201c7154aecadd50bba13b0e5a016fd2bfb8a94501116a29",
+    "path_redacted": true
+  },
+  {
+    "file": "data/benchmark/ecut60_k12_n4.in",
+    "original_filename": "ecut60_k12_n4.in",
+    "original_sha256": "39a4fb5cf3791580def2940784e7199acdf614c4ced429e468ac1bc758106cd4",
+    "distributed_sha256": "d83cccfc76738e3310b057c25dbaa52fd18c6a6948993f4066244376584b7212",
+    "path_redacted": true
+  },
+  {
+    "file": "data/benchmark/results-25009137.csv",
+    "original_filename": "results-25009137.csv",
+    "original_sha256": "90cb8abc432a86ba58526a31087bda91a4327c16b12b7c4e2da534b303aa3612",
+    "distributed_sha256": "90cb8abc432a86ba58526a31087bda91a4327c16b12b7c4e2da534b303aa3612",
+    "path_redacted": false
+  },
+  {
+    "file": "historical/high_spin_four_state.py",
+    "original_filename": "analyze_high_spin_four_state.py",
+    "original_sha256": "e9e2df3c50565220ae6c13b2555fbf5822ee35e3da218d99a7520e3f0d04bfd2",
+    "distributed_sha256": "8ffab95f587292a9cf49877dfcd57c4ee430c47d8d24e3da9a915e823e9e64da",
+    "path_redacted": true
+  },
+  {
+    "file": "data/high_moment/four_state.json",
+    "original_filename": "high_spin_summary_received.json",
+    "original_sha256": "6e4839fae22cf28ba3bbe5a9f4d858e37c4613b368b5c5e00dc0378eba2a8879",
+    "distributed_sha256": "77b65ccb1977b1bed1aa1b0c1ad68218a3b0f1a409fe50c94bd058fa95e8a00a",
+    "modification": "Replaced local output/marker directories with original basenames."
+  },
+  {
+    "file": "data/high_moment/displacement.csv",
+    "original_filename": "displacement_values.csv",
+    "original_sha256": "3e84a3798c54343ce83d7bdf8140f877bb810a9cafcc5f2645c2b9a10a806822",
+    "distributed_sha256": "1363d69b80b7fa768fea6a2340fbad494049f377ee557c15372a2fddeeeed918",
+    "modification": "Renamed capped/uncapped column labels to confined/unconfined; numerical data unchanged."
+  }
+]

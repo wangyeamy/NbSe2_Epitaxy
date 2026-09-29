@@ -1,0 +1,52 @@
+&CONTROL
+   calculation      = 'scf'
+   verbosity        = 'high'
+   restart_mode     = 'from_scratch'
+   tstress          = .true.
+   tprnfor          = .true.
+   outdir           = './REDACTED_PATH'
+   prefix           = 'ecut50_k12_n2'
+   disk_io          = 'low'
+   pseudo_dir       = './REDACTED_PATH'
+/
+&SYSTEM
+   ecutwfc          = 50.0
+   ecutrho          = 400.0
+   occupations      = 'smearing'
+   degauss          = 0.02
+   smearing         = 'mv'
+   assume_isolated  = '2D'
+   ntyp             = 2
+   nat              = 3
+   ibrav            = 0
+/
+&ELECTRONS
+   electron_maxstep = 100
+   conv_thr         = 1e-08
+   mixing_beta      = 0.3
+/
+&IONS
+/
+&CELL
+/
+&FCP
+/
+&RISM
+/
+ATOMIC_SPECIES
+Nb 92.90637 Nb.pbe-spn-kjpaw_psl.0.3.0.UPF
+Se 78.971 Se_pbe_v1.uspp.F.UPF
+
+K_POINTS automatic
+12 12 1  0 0 0
+
+CELL_PARAMETERS angstrom
+3.44500000000000 0.00000000000000 0.00000000000000
+-1.72250000000000 2.98345751603739 0.00000000000000
+0.00000000000000 0.00000000000000 25.00000000000000
+
+ATOMIC_POSITIONS angstrom
+Nb 0.0000000000 0.0000000000 12.5000000000  
+Se -0.0000000000 1.9889716774 14.2054007349  
+Se -0.0000000000 1.9889716774 10.7945992651  
+

@@ -1,0 +1,12 @@
+{
+  "observed_interaction_energy_change_meV_cell": -3.53598357406959,
+  "endpoint_trapezoid_projected_energy_change_meV_cell": {
+    "buckling": -3.551712720048109,
+    "breathing": -0.04434353610995077,
+    "rigid_z": -0.4073540621690005,
+    "shear_x": 3.254168799203466e-06,
+    "shear_y": 0.0020089266248600646
+  },
+  "projected_sum_meV_cell": -4.001398137533401,
+  "observed_minus_projected_sum_meV_cell": 0.4654145634638107
+}

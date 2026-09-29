@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Please cite the associated manuscript when using this analysis package."
+title: "Interfacial forces and mechanical work in confined NbSe2"
+type: software
+version: "1.0.0-review"
+date-released: "2026-09-30"
+authors:
+  - family-names: Wang
+    given-names: Ye
+    affiliation: Eindhoven University of Technology
+abstract: "Analysis code and supporting input data for atom-resolved interfacial forces, displacement work and density-of-states comparisons in hBN/NbSe2/sapphire."

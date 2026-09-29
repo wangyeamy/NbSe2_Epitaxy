@@ -1,0 +1,30 @@
+{
+  "stack": {
+    "fermi_eV": -4.451,
+    "rows": 2001,
+    "nearest_E_minus_EF_eV": 0.0009999999999994458,
+    "DOS_nearest_EF": 6.498,
+    "DOS_interpolated_EF": 6.510299999999994,
+    "sha256": "5a277a92cf1b7ffaab3e7f46e639373cdf9dadd1eca4de70e15ffa337cf1bf7a"
+  },
+  "uncapped": {
+    "fermi_eV": -4.403,
+    "rows": 2001,
+    "nearest_E_minus_EF_eV": 0.0029999999999992255,
+    "DOS_nearest_EF": 6.273,
+    "DOS_interpolated_EF": 6.307199999999992,
+    "sha256": "7cc61d363cd0cbbd094e13b56ca3f6ee3f32d87d280c733a6deffd517b04fa6e"
+  },
+  "hbn": {
+    "fermi_eV": -3.99,
+    "rows": 2001,
+    "nearest_E_minus_EF_eV": 0.0,
+    "DOS_nearest_EF": 1.5386e-22,
+    "DOS_interpolated_EF": 1.5386e-22,
+    "sha256": "b6cf0dfcc72d61bc39fa1684c17e09ba0bc9f64de7a3fe5cf3c81cdd37ec8f5b"
+  },
+  "relative_change_nearest_percent": 3.5868005738880937,
+  "relative_change_interpolated_percent": 3.2201293759513305,
+  "branch": "legacy dense GC; not current high-moment",
+  "energy_alignment": "each own EF; not absolute band alignment"
+}
