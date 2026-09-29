@@ -1,0 +1,164 @@
+{
+  "GU_to_GC_displacement_modes": {
+    "breathing_angstrom_unit_mode": -0.006167212351835579,
+    "buckling_angstrom_unit_mode": 0.010540235420896493,
+    "rigid_z_angstrom_unit_mode": -0.009284110477433966,
+    "shear_magnitude_angstrom_unit_mode": 0.0017238988055264324,
+    "shear_x_angstrom_unit_mode": 5.2956446601805416e-05,
+    "shear_y_angstrom_unit_mode": 0.0017230852290176391
+  },
+  "energy": {
+    "capping_interaction_GC_ev": -2.3952051300133688,
+    "capping_interaction_GU_ev": -2.391669146439299,
+    "delta_C_GC_minus_GU_ev": -0.003148221337284548,
+    "delta_U_GC_minus_GU_ev": 0.000387762236785047,
+    "delta_delta_capping_GC_minus_GU_ev": -0.00353598357406959
+  },
+  "forces": {
+    "capping_on_substrate_GC": {
+      "metrics": {
+        "max_ev_a": 0.07795328896827726,
+        "rms_ev_a": 0.03278705547726999,
+        "sum_ev_a": [
+          -4.936518477655736e-05,
+          -2.4425482051879114e-05,
+          -0.34549330140825096
+        ]
+      },
+      "modes": {
+        "breathing_ev_a_unit_mode": -0.007311493738168578,
+        "buckling_ev_a_unit_mode": 0.34017679585121274,
+        "internal_mode_span_fraction": 0.8940234637693898,
+        "rigid_z_ev_a_unit_mode": -0.04377304978518672,
+        "shear_magnitude_ev_a_unit_mode": 0.0009508168430379834,
+        "shear_x_ev_a_unit_mode": -4.213318431779385e-05,
+        "shear_y_ev_a_unit_mode": -0.0009498828684548216
+      }
+    },
+    "capping_on_substrate_GU": {
+      "metrics": {
+        "max_ev_a": 0.0755298252880977,
+        "rms_ev_a": 0.03166575541113581,
+        "sum_ev_a": [
+          -0.00020054606315854975,
+          -1.1055744507765334e-05,
+          -0.35101988811026946
+        ]
+      },
+      "modes": {
+        "breathing_ev_a_unit_mode": -0.007068921133309806,
+        "buckling_ev_a_unit_mode": 0.3337574339301596,
+        "internal_mode_span_fraction": 0.8920601890031008,
+        "rigid_z_ev_a_unit_mode": -0.04397990471898868,
+        "shear_magnitude_ev_a_unit_mode": 0.0013842539653272528,
+        "shear_x_ev_a_unit_mode": -8.076663272138502e-05,
+        "shear_y_ev_a_unit_mode": -0.0013818957238384785
+      }
+    },
+    "four_state_nonadditivity": {
+      "metrics": {
+        "max_ev_a": 0.003938432395713121,
+        "rms_ev_a": 0.0014368119724401673,
+        "sum_ev_a": [
+          0.0001511808783820005,
+          -1.3369737544118047e-05,
+          0.005526586702018526
+        ]
+      },
+      "modes_on_GC_basis": {
+        "breathing_ev_a_unit_mode": -0.000242572604858769,
+        "buckling_ev_a_unit_mode": 0.006419361921053175,
+        "internal_mode_span_fraction": 0.7413305612585052,
+        "rigid_z_ev_a_unit_mode": 0.00020685493380196562,
+        "shear_magnitude_ev_a_unit_mode": 0.00043373684481756296,
+        "shear_x_ev_a_unit_mode": 3.8633448403589366e-05,
+        "shear_y_ev_a_unit_mode": 0.00043201285538365855
+      }
+    },
+    "hbn_interaction_GC": {
+      "metrics": {
+        "max_ev_a": 0.0736890594184582,
+        "rms_ev_a": 0.03377656452902659,
+        "sum_ev_a": [
+          4.9879405452024915e-05,
+          2.391126137650564e-05,
+          0.3454935585185889
+        ]
+      }
+    },
+    "hbn_interaction_GU": {
+      "metrics": {
+        "max_ev_a": 0.07409815787076757,
+        "rms_ev_a": 0.03383196899796136,
+        "sum_ev_a": [
+          0.00019951762180813452,
+          1.2598406531700288e-05,
+          0.35102477320667985
+        ]
+      }
+    }
+  },
+  "scope": "certified k3 fixed-geometry high-spin four-state analysis; no gap scan or reaction barrier",
+  "states": {
+    "C_GC": {
+      "absolute_moment": 11.28,
+      "accuracy_ry": 9.9e-09,
+      "branch": "high",
+      "energy_ry": -13507.58072249,
+      "marker": "high_on_GC.converged",
+      "marker_sha256": "e29ad95c87129b75fb3ac6c11b5a358d94096779b713ac3ee1707fae7261df0b",
+      "moment": 10.41,
+      "nat": 245,
+      "output": "qe-high_on_GC-26904506.out",
+      "output_sha256": "8ecd5341e1bd26dc61d23a60e28645dd911420566ba6ef495063e8973c081bc7"
+    },
+    "C_GU": {
+      "absolute_moment": 11.28,
+      "accuracy_ry": 8.4e-09,
+      "branch": "high",
+      "energy_ry": -13507.5804911,
+      "marker": "k3_capped_GU.converged",
+      "marker_sha256": "0cb75079fce5416c12755f319f3529bb8ec2276b30171a59686a3985e1fc1b6e",
+      "moment": 10.41,
+      "nat": 245,
+      "output": "qe-capped_GU-k3-check-26842479.out",
+      "output_sha256": "8b50816e2629269d31306274e302141da6f67dbedff094954253bae61ee454a6"
+    },
+    "H": {
+      "absolute_moment": 0.0,
+      "accuracy_ry": 3e-09,
+      "branch": "reference",
+      "energy_ry": -1236.04085646,
+      "marker": "k3_hbn.converged",
+      "marker_sha256": "24477c4bdbf0167fa08536635f5afa713315033534eae0658a4befe722021150",
+      "moment": -0.0,
+      "nat": 62,
+      "output": "qe-hbn-k3-attempt2-26222673.out",
+      "output_sha256": "84f7b44b0f9ffd6b107a8a217024c1cf1c87b56e61955428cda710ca79461bbf"
+    },
+    "U_GC": {
+      "absolute_moment": 11.19,
+      "accuracy_ry": 6.5e-09,
+      "branch": "high",
+      "energy_ry": -12271.3638217,
+      "marker": "high_on_uncapped_GC.converged",
+      "marker_sha256": "f67a698eb461d177229461135aa6fa65bfd34bd327dc9e6ca3456563674b8fa3",
+      "moment": 10.34,
+      "nat": 183,
+      "output": "qe-high-on-uncapped-GC-26946619.out",
+      "output_sha256": "da9e70681dbb909497321fc99aeb42a1e561800ac7be8e922444c546fa4ba025"
+    },
+    "U_GU": {
+      "absolute_moment": 11.18,
+      "accuracy_ry": 9.9e-09,
+      "branch": "high",
+      "energy_ry": -12271.3638502,
+      "marker": "k3_interface.converged",
+      "marker_sha256": "e800da4b38aa2db5d95313ed09611689f7e2f79bdce72bad053dbd93dba95b16",
+      "moment": 10.33,
+      "nat": 183,
+      "output": "qe-interface-k3-attempt1-26007742_0.out",
+      "output_sha256": "d1aa5ea09f3e011c6db826b3ba20589ca1f5b29a24c6b7038d0b23e5b75d4a35"
+    }
+  }
+}
